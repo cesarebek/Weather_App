@@ -1,0 +1,32 @@
+@media all and (min-width: 501px) and (max-width: 950px) {
+  nav {
+    height: 8vh;
+    padding: 2.5rem 1rem;
+    form input {
+      width: 13rem;
+    }
+  }
+
+  body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    height: auto;
+    width: 60%;
+  }
+  .girl {
+    width: 100%;
+    bottom: 10%;
+  }
+  .splash-2 {
+    display: none;
+  }
+
+  .splash {
+    width: 80%;
+    bottom: -13%;
+    right: -10%;
+  }
+}

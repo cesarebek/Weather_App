@@ -1,0 +1,40 @@
+.girl {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  bottom: 20%;
+  right: 1%;
+}
+
+#testa {
+  animation: testa 1.5s ease infinite alternate;
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+
+@keyframes testa {
+  from {
+    transform: rotateZ(-10deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
+.splash {
+  width: 60%;
+  position: absolute;
+  right: -16%;
+  bottom: 5%;
+  height: 70%;
+  z-index: -1;
+}
+
+.splash-2 {
+  width: 60%;
+  position: absolute;
+  left: -16%;
+  bottom: -10%;
+  height: 70%;
+  z-index: -2;
+}

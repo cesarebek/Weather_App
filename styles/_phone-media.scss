@@ -1,0 +1,52 @@
+@media all and (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+  }
+  form {
+    margin-top: 1rem;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  svg {
+    height: auto;
+    width: 60%;
+  }
+  .girl {
+    display: none;
+  }
+
+  .splash {
+    display: none;
+  }
+  .splash-2 {
+    rotate: -15deg;
+    bottom: -20%;
+    width: 100%;
+  }
+  .weatherDisplay {
+    height: 25rem;
+    width: 17rem;
+    font-size: 1rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+    box-shadow: 3px 3px 3px rgba(142, 142, 142, 0.5);
+    cursor: default;
+    .temp {
+      font-size: 1.5rem;
+    }
+    .desc {
+      font-size: 1.2rem;
+    }
+  }
+  .icon-dim {
+    width: 12rem;
+  }
+}

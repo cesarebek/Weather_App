@@ -1,0 +1,49 @@
+.weatherDisplay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(111, 111, 111);
+  background-color: #ebebeb;
+  padding: 3rem 0;
+  margin: 3rem 0;
+  border-radius: 2.5rem;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+  box-shadow: 3px 3px 3px rgba(142, 142, 142, 0.5);
+  cursor: default;
+}
+
+.card {
+  position: absolute;
+  z-index: -1;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  .city {
+    text-align: center;
+  }
+}
+
+.icon-dim {
+  width: 16rem;
+}
+
+.temperatureSection {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.temp {
+  font-size: 1.8rem;
+}
+
+.desc {
+  font-size: 1.8rem;
+}

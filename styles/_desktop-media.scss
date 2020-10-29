@@ -1,0 +1,31 @@
+@media all and (min-width: 951px) and (max-width: 1300px) {
+  nav {
+    height: 10vh;
+  }
+  svg {
+    height: auto;
+    width: 47%;
+  }
+  .splash-2 {
+    bottom: -13%;
+  }
+  .weatherDisplay {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+  }
+}
+@media all and (min-width: 1301px) {
+  nav {
+    height: 10vh;
+  }
+  svg {
+    height: auto;
+    width: 65%;
+  }
+  .weatherDisplay {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+  }
+}

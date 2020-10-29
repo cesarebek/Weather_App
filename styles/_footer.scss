@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+  color: rgb(111, 111, 111);
+  hr {
+    width: 15%;
+  }
+}
