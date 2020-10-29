@@ -1,9 +1,39 @@
-<h1>Questa è una prova, sto imparando ad usare github.</h1>
-<p>
-  Quando faccio delle modifiche al file ed ho finito il lavoro per il momento o
-  in modo definitivo, apro il terminale e scrito git add . (il punto significa
-  aggiungi tutti i file modificati/aggiunti) successivamente posso vedere con
-  git status lo stato corrente e poi git commit -m "commento di ciò che ho
-  fatto" per inviare la modifica nella repository pubblica che successivamente
-  chiunque può scaricare.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub</title>
+  </head>
+  <body>
+    <h1>GitHub, le basi per l'utilizzo</h1>
+    <p>
+      Quando faccio delle modifiche al file ed ho finito il lavoro per il
+      momento o in modo definitivo, apro il terminale e scrito git add . (il
+      punto significa aggiungi tutti i file modificati/aggiunti) successivamente
+      posso vedere con git status lo stato corrente e poi git commit -m
+      "commento di ciò che ho fatto" per inviare la modifica nella repository
+      pubblica che successivamente chiunque può scaricare.
+    </p>
+    <h1>Braches</h1>
+    <p>
+      I branches servono per creare dei prototipi che successivamente possono
+      essere implementati con il comando git merge nome-branch. Per creare un
+      nuovo branch basta scrivere git branch nome-branch. Per passare da un
+      branch all'altro bisogna utilizzare il comando git checkout nome-branch,
+      per verificare lo stato attivo del branch basta digitare il comand git
+      branch. Una volta che ho fuso (merge) un branch al ramo principale della
+      repository posso tranquillamente eliminare il branch ausiliario digitando
+      questo comando git branch -d nome-branch.
+    </p>
+    <h1>Linking with GitHub</h1>
+    <p>
+      Per caricare i file su GitHub è necessario creare una repository e
+      successivamente copiare il link https il quale dovrà essere incollato in
+      coda a questo comando git remote add origin link.https. Per controllare
+      che tutto sia collegato in modo corretto, basta digitare il comando git
+      remote -v mentre se voglio inviare i dati a GitHub devo eseguire il
+      comando git push -u .
+    </p>
+  </body>
+</html>
